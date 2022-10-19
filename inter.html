@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="inter.css">
+</head>
+<body>
+    <div class="experiment">
+        Expiry <span id="Exp" style="display:inline;">Date</span>
+    </div>
+    <img src="img\bg-main-mobile.png" alt="" class="imgb2">
+    <div class="container">
+        <section class="card-display">
+            <div class="back">
+            <img src="img\bg-main-desktop.png" alt="" class="imgb">
+        </div>
+            <div class="card-front">
+                <img src="img\bg-card-front.png" alt="" class="card-front1">
+                <img src="img\card-logo.svg" alt=""  class="card-logo">
+                 <p class="card-number">"5399 8344 6757 3456" </p>
+                <p class="card-name">Lateefat  Balogun</p>
+                <p class="month">03/2022</p>
+                </div>
+                <div class="card-back">
+                    <img src="img\bg-card-back.png" alt="" class="card-back-img">
+                    <p class="CVV">123</p>
+                </div>
+            </section>
+                </div>
+                <section class="card-details">
+                    <form action="/action_page.php" id="form" name="form">
+<label for="Cardholder" id="cardh">CARDHOLDER NAME</label>
+ <input type="text" placeholder="Lateefat Adewumi" id="place1" required name="name">
+
+ <label for="Cardnum" id="cardn">CARD NUMBER</label>
+ <input type="numeric" placeholder="5399 8344 6757 3456" id="place2" required name="number">
+
+ <div class="form2">
+ <label for="Expiry" id="expiry">Expiry <span id="date" style="display:inline;">Date</span></label>
+ <input type="numeric" placeholder="MM" id="place3" required name="month">
+ <input type="numeric" placeholder="YY" id="place4" required name="year">
+ <label for="cvv" id="cvv2">CVV</label>
+ <input type="numeric" placeholder="123" id="place5" required name="cvv">
+</div>
+<button id="submit"> Confirm</button>
+                    </form>
+                    </section>
+
+                </div>
+
+                    <script src="inter.js"></script>
+</body>
+</html>
